@@ -9,6 +9,22 @@ table {
 	letter-spacing: -0.1em;
 }
 
+/*
+ ★ Flat Green vACE v1.0 ★
+원래 깔끔하지만 제작자는 초록색을 좋아하기 때문에, 스퀘어넷의 vACE를 초록색 테마로 변경하는 테마입니다.
+★ vACE 서비스에 아무런 영향을 주지 않습니다. CSS의 일부를 변경하는 Extension (확장기능) 입니다.
+★ 본 테마를 사용하기 위해선 Chrome, Firefox, (macOS) Safari 의 Stylish 가 필요합니다.
+Chrome: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
+Firefox: https://addons.mozilla.org/firefox/addon/stylish/?src=external-userstylesorghelp
+Safari: https://extensions.apple.com/details/?id=com.sobolev.stylish-5555L95H45
+
+※ 정식 배포 링크 ※
+★ Github : http://file.ddark.kr/customcss/fgvace.css	
+Userstyles : 준비중. 다음 버전부터 배포 예정
+	
+★ 제작자 : 도다 (dohyundark@naver.com) (문제가 있을 경우 업데이트를 중지하겠습니다.)
+*/
+
 /* 스넷 색상 (몰라 나도) */
 .sqn-color.green {
 	color: #16a085;
@@ -48,8 +64,7 @@ table {
 	background: #3498db;
 	border-color: #2980b9;
 }
-
-/* 네비바 */
+	
 .sqn-globalnav {
 	color: #ffffff;
 	background-color: #16a085;
@@ -74,7 +89,10 @@ table {
 	-webkit-transform: skew(-20deg,-0deg);
 }
 	
-	
+.sqn-footer .copr {
+	color: #9E9E9E;
+	font-size: 12px;
+}
 	
 /* @-moz-document 규칙의 끝. 건들면 오류 ㅠㅠ */
 }
