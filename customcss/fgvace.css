@@ -9,19 +9,19 @@ table {
 	letter-spacing: -0.1em;
 }
 
-/* ½º³İ »ö»ó (¸ô¶ó ³ªµµ) */
+/* ìŠ¤ë„· ìƒ‰ìƒ (ëª°ë¼ ë‚˜ë„) */
 .sqn-color.green {
 	color: #16a085;
 }
 	
-/* Á¡º¸Æ®·Ğ */
+/* ì ë³´íŠ¸ë¡  */
 	
 .section.global.jumbotron {
 	color: #FFFFFF;
 	background-color: #16a085;
 }
 
-/* °æ°í (alert) */
+/* ê²½ê³  (alert) */
 .sqn-alert {
 	border-radius: 0px;
 }
@@ -30,7 +30,7 @@ table {
 	border-left-color: #16a085;
 }
 
-/* ¹öÆ° »ö */
+/* ë²„íŠ¼ ìƒ‰ */
 .sqn-btn.orange {
 	color: #FFFFFF;
 	background: #f39c12;
@@ -49,7 +49,7 @@ table {
 	border-color: #2980b9;
 }
 
-/* ³×ºñ¹Ù */
+/* ë„¤ë¹„ë°” */
 .sqn-globalnav {
 	color: #ffffff;
 	background-color: #16a085;
@@ -76,5 +76,5 @@ table {
 	
 	
 	
-/* @-moz-document ±ÔÄ¢ÀÇ ³¡. °Çµé¸é ¿À·ù ¤Ğ¤Ğ */
+/* @-moz-document ê·œì¹™ì˜ ë. ê±´ë“¤ë©´ ì˜¤ë¥˜ ã… ã…  */
 }
