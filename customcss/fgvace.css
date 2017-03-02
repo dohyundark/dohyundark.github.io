@@ -1,0 +1,79 @@
+@-moz-document url-prefix("https://vace.squarenet.kr/") {
+body,
+input,
+textarea,
+select,
+button,
+table {
+	font-family: sans-serif;
+	letter-spacing: -0.1em;
+}
+
+/* 스넷 색상 (몰라 나도) */
+.sqn-color.green {
+	color: #16a085;
+}
+	
+/* 점보트론 */
+	
+.section.global.jumbotron {
+	color: #FFFFFF;
+	background-color: #16a085;
+}
+
+/* 경고 (alert) */
+.sqn-alert {
+	border-radius: 0px;
+}
+
+.sqn-alert.green {
+	border-left-color: #16a085;
+}
+
+/* 버튼 색 */
+.sqn-btn.orange {
+	color: #FFFFFF;
+	background: #f39c12;
+	border-color: #e67e22;
+}
+
+.sqn-btn.red {
+	color: #FFFFFF;
+	background: #e74c3c;
+	border-color: #c0392b;
+}
+
+.sqn-btn.blue {
+	color: #FFFFFF;
+	background: #3498db;
+	border-color: #2980b9;
+}
+	
+.sqn-globalnav {
+	color: #ffffff;
+	background-color: #16a085;
+	border-bottom: 2px solid #16a085;
+	z-index: 9999;
+	font-family: "proxima-nova",sans-serif !important;
+	font-size: 24px;
+	box-shadow: 6px 6px 10px rgba(0,0,0,.05);
+}
+	
+.sqn-globalnav .sqn-gn-brand a, .sqn-globalnav .sqn-gn-brand a:hover, .sqn-globalnav .sqn-gn-brand a:active, .sqn-globalnav .sqn-gn-brand a:link, .sqn-globalnav .sqn-gn-brand a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+	
+.sqn-globalnav .sqn-gn-menu {
+	color: #ecf0f1;
+	background: #1abc9c;
+	font-size: 21px;
+	transform: skew(-20deg,-0deg);
+	-ms-transform: skew(-20deg,-0deg);
+	-webkit-transform: skew(-20deg,-0deg);
+}
+	
+	
+	
+/* @-moz-document 규칙의 끝. 건들면 오류 ㅠㅠ */
+}
